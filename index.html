@@ -57,23 +57,38 @@ be instrumental in preserving human lives.</p>
 </p>
 
 <h3>GeoProcessing Workflow</h3>
-<p></p>
+<p><b>What geoprocessing workflow will happen on the server - in general terms?</b>
+<ol>
+  <li>Convert any polylines (roads) or polygons (urban areas) to rasters.</li>
+  <li>The user will define weighted values for each raster dataset selected (or there will be defaults or recommended values) and the server will run the reclassify tool to change the raster values for those datasets.</li>
+  <li>The server will then multiply each of the rasters together to make a base raster that will be used for the least cost path analysis.</li>
+  <li>Using the user defined starting point(s), the server will run the Cost-Distance tool and use the resulting backlink and cost distance rasters to compute the costpath as a polyline.</li>
+  <li>The server will compute the length of the line(s) to show the distance needed to travel. 
+</ol>
+</p>
 
 
 <h3>Interface</h3>
-<p></p>
+<p><b>What are the basic functions that will exist on the front-end user interface? </b>
+The front-end user interface will include an option to upload a “Hazard Area” shape file. This shape file will define the area of danger from which citizens will have to evacuate. The front-end user will then define a “Area of Interest” using a polygon drawing tool on the map interface. This “Area of Interest” will keep the program from conducting geoprocessing outside of the region. The front-end user will then use a tool with the map interface to define “Starting Point(s).” The app will find the least cost path from danger to safety for each of the “Starting Points” defined by the front end user. In order to calculate the least cost path the front end user will be given the option of uploading or searching for cost distance variable datasets such as roads, buildings, rivers, bridges, or anything the user sees fit. The front-end user will also be given the opportunity to weigh each of the cost distance variables in the map interface. The output map would be a map with the starting points and the evacuation routes highlighted. We would want to allow the user to also see the intermediate datasets such as the cost distance raster. A rough conceptual example of our overall idea (made in Excel and ArcGIS Pro) is shown in the pictures below.
+</p>
 
 
 <h3>Source Code</h3>
-<p></p>
+<p><b>How will you store the code on GitHub? </b><p>
+<p>
+The team will store the code on GitHub using a repository made on Izaak Cooper’s personal account. The Repository name of the project will be “ELCP App” There will be multiple branches within the repository that will address different aspects of the app. The names of these branches will be determined as the team understands the number of branches and what type of branches will be needed. Once the individual branches have been perfected their final draft will be saved to the “master” branch. Github will allow the team to work in parallel on different aspects of the app before the final app is created.
+<p>
 
 
-<h3>Interface</h3>
-<p></p>
+<p><b>What license will you license the source code under?</b><p>
+<p>We will use an MIT license for our source code. This will allow for flexibility as we design this tool and allow the code to be updated and improved upon by others. Since the code will be open-source, we want as many people as possible to be able to build on and improve the code. Thus, we are going with a less restrictive license. If, down the line, a GPL license would be more appropriate, it will be easier to switch to a GPL license from MIT than switching the other way.
+</p>
+
 
 
 <h2>Conclusion</h2>
-<p></p>
+<p>The team believes that the ELCP App will greatly aid in emergency preparation efforts for local, state, and national agencies and governments. In order to create the app in an effective manner the team has decided to define the parts of the project that each team member will be responsible for. It is known that this project is a  collaborative effort but each team member will have a specific area of responsibility where they take the lead. Bryce will be mainly responsible for the Geoprocessing aspects of the project. Izaak will be mainly responsible for the front end user interface and the app being usable to other parties. Michael will be mainly in charge of the interaction that the app has with map services and other parts of the web. </p>
 
 
 </body>
