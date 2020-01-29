@@ -12,12 +12,11 @@ h1 {
 
 h3 {
   font-family: sans-serif;
+  margin-bottom: 20px;
 }
 
 p {
   margin-left: 30px;
-  margin-bottom: 20px;
-  border: 1px solid black;
 }
 
 img {
