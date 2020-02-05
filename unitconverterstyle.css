@@ -1,0 +1,14 @@
+h1{
+  color: navy;
+  text-align: center;
+}
+
+input{
+  text-align:center;
+}
+
+.conversionbox{
+  text-align:center;
+  display: inline-block
+  border: 2px solid black;
+}
