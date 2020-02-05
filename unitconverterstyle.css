@@ -1,14 +1,26 @@
 h1{
-  color: navy;
+  color: black;
   text-align: center;
 }
 
 input{
-  text-align:center;
+  text-align: center;
 }
 
-.conversionbox{
+#conversionbox{
   text-align:center;
-  display: inline-block
   border: 2px solid black;
+  width: 300px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border-spacing: 15px;
+  box-shadow: 10px 10px;
+  box-sizing: border-box
+}
+
+body {
+ background-image: url("https://image.freepik.com/free-photo/blue-color-background-with-ray-light-from-top-left-corner_48883-126.jpg");
+  background-repeat: no-repeat;
+  background-size: cover
 }
