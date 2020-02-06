@@ -1,10 +1,10 @@
- function Convert(){
+function Convert(){
    alert("Results May Vary!")
+   var Answer=document.getElementById("Answer").number
+   Answer.innerHTML= 3 
+   var myDIV = document.getElementById('txt')
+   myDIV.innerHTML="<b>new text</b>"
  }
-
- function Convert(){
-   alert("Results May Vary!")
-
 var input=document.getElementById("input").value
 var outputunit=document.getElementById("outputunit").text 
 var inputunit=document.getElementById("inputunit").text
