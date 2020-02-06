@@ -1,20 +1,6 @@
-function Convert(){
-   alert("Results May Vary!")
-   var Answer=document.getElementById("Answer").number
-   Answer.innerHTML= 3 
-   var myDIV = document.getElementById('txt')
-   myDIV.innerHTML="<b>new text</b>"
+ function Convert(){
+     alert("Results May Vary!")
  }
-var input=document.getElementById("input").value
-var outputunit=document.getElementById("outputunit").text 
-var inputunit=document.getElementById("inputunit").text
-var Answer=document.getElementById("Answer").text
-
-
- Answer.innerHTML= "<b>hello</b>"
-
-
-input = "Inches" && outputunit = "Feet"
 
 Inches to Feet	ft=in*0.083333	
 Inches to Meters	m=in/39.370	
