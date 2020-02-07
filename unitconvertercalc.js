@@ -140,7 +140,7 @@ function Convert(){
     document.getElementById('Answer').value = input * 3.2808
   } 
   if (inputunit == "Meters" & outputunit == "Miles"){
-    document.getElementById('Answer').value = input / .00062137
+    document.getElementById('Answer').value = input * .00062137
   }
   if (inputunit == "Meters" & outputunit == "Centimeters"){
     document.getElementById('Answer').value = input * 100
