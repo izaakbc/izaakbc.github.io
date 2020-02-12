@@ -1,4 +1,3 @@
-  
 h1{
   color: black;
   text-align: center;
@@ -22,7 +21,8 @@ input{
 
 #pic{
   text-align:center;
-  margin:
+  margin-top:10px;
+  margin-bottom:30px;
 }
 
 #ManningsEquationBox{
