@@ -1,0 +1,54 @@
+  
+h1{
+  color: black;
+  text-align: center;
+}
+
+input{
+  text-align: center;
+}
+
+#Explanation{
+  text-align:center;
+  border: 2px solid black;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border-spacing: 15px;
+  box-shadow: 10px 5px;
+  box-sizing: border-box
+}
+
+#pic{
+  text-align:center;
+  margin:
+}
+
+#ManningsEquationBox{
+  text-align:center;
+  border: 2px solid black;
+  width: 600px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border-spacing: 15px;
+  box-shadow: 10px 5px;
+  box-sizing: border-box
+}
+
+body {
+ background-image: url("https://image.freepik.com/free-photo/blue-color-background-with-ray-light-from-top-left-corner_48883-126.jpg");
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+#Answer {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+#intro {
+  margin-right: 250px;
+  margin-left: 250px;
+}
