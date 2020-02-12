@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="Mannings.css">
+<script type="text/javascript" src="Mannings.js"></script>
+</head>
+
+<body>
+
+   <h1>Manning's Equation</h1>
+   
+   <div id='intro'>
+   <p> Manning's equation is used extensively in the field of water resources. Manning's equation is used to calculate the total flow through an open channel given a set of parameters. An example of open channel flow is illustrated below. One very useful adaptation of the Manning's Equation can be used to find the mean velocity of the water in the channel. The equation to find the velocity using Mannings equation is shown below. The variables needed to calculate the velocity are also defined below.
+   </div>
+     
+   <div id='pic'>
+   <img src="https://www.howtocivil.com/wp-content/uploads/2020/01/open-channel-flow-vs-pipe-flow.jpg" >
+   </div>
+     
+   <div id='Explanation'>
+        <p><b>Solving for Velocity Using Manning's Equation</b></p>
+ 
+   <p>v = (kn / n) Rh^(2/3) S^(1/2)</p>                   
+
+   <p>where</p>
+
+   <p>v = cross-sectional mean velocity (ft/s, m/s)</p>
+
+   <p>kn = 1.486 for English units and kn = 1.0 for SI units</p>
+
+<p>n = Manning coefficient of roughness</p>
+
+   <p>Rh = hydraulic radius (ft, m)</p>
+
+S = slope - or gradient - of pipe (ft/ft, m/m)
+   </div>
+   
+<h1>Velocity Calculator Using Manning's Equation</h1>
+<div  id="ManningsEquationBox" >
+  
+  <p>Manning's n = <input id="n" type="number"></p>
+  
+  <p>kn (1.486 English or 1.0 SI)</p>
+  
+<form action="">
+  <input type="radio" name = "kn" id="SI" value="1.0"> 1.0<br>
+  <input type="radio" name = "kn" id="English" value="1.486"> 1.486<br>
+</form>
+
+  
+  <p>Rh (Hydraulic Radius, A/Pw) = <input id="Rh" type="number"></p>
+  
+  <p>S (Slope)= <input id="S" type="number"></p>
+  
+  <p><input type='button' value='Calculate Velocity' onclick="Calculate()"</p>
+   
+    
+    
+  <p> <text id="Answer" type="text"> </p>
+
+   
+   
+
+</body>
+</html>
