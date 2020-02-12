@@ -44,5 +44,7 @@ function Calculate(){
   var Velocity = (1.486/n)*Math.pow(Rh, 2/3)*Math.pow(S,1/2)
   var Vel = Velocity.toString();
   Answer.innerHTML = 'Calculated Velocity is ' + Vel + ' ft/s'
+}else {
+  alert('Pick a Value for kn')
 }
 } 
