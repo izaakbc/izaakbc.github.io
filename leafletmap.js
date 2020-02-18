@@ -1,4 +1,4 @@
-
+function myFunction(){
     var map = L.map('map').setView([36.079848, -115.051764], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -40,3 +40,4 @@ caferio.bindPopup("<b>Cafe Rio</b><br>This became the cool place to eat because 
 circle.bindPopup("<b>If you had 10 minutes</br> <br>you could walk anywhere in this red circle from my house");
 polygon.bindPopup("<b>Our apartment's Property line</b><br>Our apartment was pretty small.");
 gg.bindPopup("<b>The Great Greek</b><br>Hika and I ate here recently. 8/10 Wouldn't go again.")
+}
