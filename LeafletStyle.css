@@ -1,3 +1,21 @@
 #map{
-  height:180px;
+  height:500px;
+  width: 900px;
+  text-align:center;
+  margin:auto
+}
+
+h1{
+  text-align:center;
+  color:white;
+}
+
+p{
+  color:white;
+}
+
+body {
+ background-image: url("https://flyrfd.com/wp-content/uploads/2017/08/vegas-banner-min.png");
+  background-repeat: no-repeat;
+  background-size: cover
 }
