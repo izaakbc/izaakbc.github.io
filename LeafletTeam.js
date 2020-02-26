@@ -1,5 +1,5 @@
 function myFunction(){
-    var map = L.map('map').setView([45.5, -122.6], 8);
+    var map = L.map('map').setView([45.5, -122.6], 6);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
