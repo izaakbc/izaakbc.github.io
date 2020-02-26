@@ -11,7 +11,7 @@ format: 'image/png', //depends on what you want to load in
 transparent: true,
 }).addTo(map);
   
-var DEM = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-687b640df0014a079c6ad87ab7296213/wms?', {
+var DEM = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-6ade1ad2379045368d1f6d83801f087d/wms?', {
 layers: 'Roads_Shp', //Title name
 format: 'image/png', //depends on what you want to load in
 transparent: true,
